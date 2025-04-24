@@ -10,6 +10,8 @@ project(libsfizz
     LANGUAGES CXX C
     VERSION 1.2.3
 )
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(PROJECT_DESCRIPTION "A library to load SFZ description files and use them to render music.")
 set(PROJECT_REPOSITORY https://github.com/sfztools/sfizz)
 
